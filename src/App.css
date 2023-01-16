@@ -1,0 +1,150 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  display: flex;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+img {
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+figure {
+  float:right;
+  width: 20%;
+  text-align: center;
+  font-style: arial;
+  font-size: smaller;
+  text-indent: 0;
+  border: thin rgb(31, 18, 18) solid;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+footer {
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(90deg, rgba(32,119,246,1) 0%, rgb(11, 9, 12) 35%, rgba(255,0,0,1) 100%);
+  color: white;
+  text-align: center;
+}
+header {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background: linear-gradient(90deg, rgba(32,119,246,1) 0%, rgb(11, 9, 12) 35%, rgba(255,0,0,1) 100%);
+  color: white;
+ }
+
+ .header{
+  display: flex;
+  align-items: center;
+  text-align: center;
+ }
+
+ logo{
+  align-items: center;
+ }
+
+ .content{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: center;
+ }
+
+ button {
+  background-image: linear-gradient(to right, rgb(255, 196, 0), rgb(255, 255, 255), rgb(255, 196, 0));
+  color: rgb(0, 0, 0);
+  font-family: Arial; 
+  font-size: 20px; 
+  font-style:normal; 
+  border-radius: 50px;
+  position: center;
+  border-color: rgb(255, 196, 0);
+  margin-right: 10px;
+   
+}
+
+
+.loader {
+  position:static;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+ 
+}
+
+.loader img {
+  margin-top: 8em;
+  width: 20%;
+  align-self: center;
+  border-radius: 200px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    display: table;
+    width: 80%;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 28px; 
+}
+
+th {
+    background-color: red;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color:  rgba(32,119,246,1);
+}
